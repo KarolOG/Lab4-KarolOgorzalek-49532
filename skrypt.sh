@@ -19,6 +19,7 @@ if [[ "$1" == "--logs" ]]; then
 	done
 fi
 
+
 if [[ "$1" == "--help" ]]; then
   	echo "Dostępne opcje:"
   	echo "--date: Wyświetla dzisiejszą datę."
@@ -26,3 +27,4 @@ if [[ "$1" == "--help" ]]; then
 else
   	echo "Nieznana opcja. Użyj 'skrypt.sh --help' aby wyświetlić dostępne opcje."
 fi
+
