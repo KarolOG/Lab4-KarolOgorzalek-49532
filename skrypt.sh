@@ -18,3 +18,13 @@ if [[ "$1" == "--logs" ]]; then
       		echo "Data: $(date)" >> "$filename"
 	done
 fi
+
+
+if [[ "$1" == "--help" ]]; then
+  	echo "Dostępne opcje:"
+  	echo "--date: Wyświetla dzisiejszą datę."
+  	echo "--logs <liczba_plików>: Tworzy określoną liczbę plików logx.txt, zawierających nazwę pliku, nazwę skryptu i datę. gdze x to numer pliku"
+else
+  	echo "Nieznana opcja. Użyj 'skrypt.sh --help' aby wyświetlić dostępne opcje."
+fi
+
